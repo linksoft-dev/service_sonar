@@ -1,7 +1,7 @@
 on: push
 name: Main Workflow
 env:
-  GOPATH: /github/workspace/comps/golang
+  GOPATH: /home/runner/work/service_sonar/service_sonar/comps/golang
 
 jobs:
   build:
