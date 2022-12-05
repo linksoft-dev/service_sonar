@@ -1,5 +1,8 @@
 on: push
 name: Main Workflow
+env:
+  GOPATH: /github/workspace/comps/golang
+
 jobs:
   build:
     name: Compile and Test
