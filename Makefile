@@ -7,7 +7,7 @@ version := "0.1.0"
 
 build:
 	mkdir -p bin
-	go build -o bin/service-sonar main.go
+	cd comps/golang && go build -o ../../bin/service-sonar main.go
 
 test: build
 	cd comps/golang && go test -short -coverprofile=../../bin/cov.out
