@@ -10,8 +10,8 @@ build:
 	cd comps/golang && go build -o bin/service-sonar main.go
 
 test: build
-	cd comps/golang && go test -short -coverprofile=bin/cov.out
-	go tool cover -func=bin/cov.out
+	cd comps/golang && go test -short -coverprofile=/github/workspace/bin/cov.out
+	go tool cover -func=/github/workspace/bin/cov.out
 
 clean:
 	rm -rf ./bin
