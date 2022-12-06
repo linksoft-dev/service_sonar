@@ -1,0 +1,5 @@
+mode: set
+test/comps/golang/main.go:7.23,9.2 1 1
+test/comps/golang/main.go:11.24,13.2 1 0
+test/comps/golang/main.go:15.24,17.2 1 1
+test/comps/golang/main.go:19.13,24.2 4 0

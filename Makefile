@@ -10,9 +10,9 @@ build:
 	cd comps/golang && go build -o ../../bin/service-sonar main.go
 
 test: build
-	cd comps/golang && go test -short -coverprofile=../../bin/cov.out
-	cd comps/golang && go tool cover -func=../../bin/cov.out
-	cat bin/cov.out
+	#cd comps/golang && go test -short -coverprofile=../../bin/cov.out
+	#cd comps/golang && go tool cover -func=../../bin/cov.out
+	#cat bin/cov.out
 	#go test -short -coverprofile=bin/cov.out ./...
 	#go tool cover -func=bin/cov.out
 
